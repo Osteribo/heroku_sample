@@ -33,6 +33,7 @@ class Person(db.Model):
     id = Column(Integer, primary_key=True)
     name = Column(String)
     catchphrase = Column(String)
+    bober = Column(Integer)
 
     def __init__(self, name, catchphrase=""):
       self.name = name
