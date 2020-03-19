@@ -5,6 +5,10 @@ import os
 
 database_path = os.environ['DATABASE_URL']
 
+# database_name = "alo"
+# database_path = "postgres://{}:{}@{}/{}".format('alo', '1234', 'localhost:5432', database_name)
+
+
 db = SQLAlchemy()
 
 '''
